@@ -1,0 +1,90 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  max-width: 38rem;
+
+  max-width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.sidebar {
+  width: auto;
+  background-color: #343a40;
+  border-right: 1px solid #485056;
+  display: flex;
+  flex-direction: column;
+}
+.top-sidebar {
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+}
+.bottom-sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.bottom-sidebar h3 {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+  font-size: 16px;
+  color: #f8f9fa;
+}
+.bottom-sidebar h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 14px;
+  color: #0080ff;
+}
+.image {
+  width: 50px;
+  border-radius: 50%;
+}
+.mid-side {
+  flex: 2;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mid-side h4 {
+  font-weight: lighter;
+  text-align: center;
+  font-size: 14px;
+  color: #0080ff;
+}
+.mid-image {
+  width: 120px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #485056;
+  background-color: transparent;
+  color: #f8f9fa;
+  padding: 6px 18px;
+  margin: 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  height: 28px;
+  cursor: pointer;
+}
+
+.webviewer {
+  height: 100vh;
+  width: 100%;
+}

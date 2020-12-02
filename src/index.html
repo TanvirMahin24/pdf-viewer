@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ajke deikkha lomu</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="../node_modules/@pdftron/webviewer/webviewer.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="top-sidebar">
+          <button id="open">Open File</button>
+          <button id="save">Save File</button>
+        </div>
+        <div class="mid-side">
+          <h4>Friends Forever</h4>
+          <img src="../assets/ff.jpg" alt="" class="mid-image" />
+        </div>
+        <div class="bottom-sidebar">
+          <img src="../assets/rod.jpg" alt="" class="image" />
+          <h3>Azmi Angkon</h3>
+          <h4>HSTU</h4>
+          <h4>
+            Eta maiya na PDF <br />
+            kom kore por
+          </h4>
+        </div>
+      </div>
+      <div class="webviewer" id="viewer"></div>
+    </div>
+    <script defer src="./render.js"></script>
+  </body>
+</html>
